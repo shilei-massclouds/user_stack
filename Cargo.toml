@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+    "user_stack",
+    "rt_user_stack",
+]
+
+[profile.release]
+lto = true
